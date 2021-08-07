@@ -1,0 +1,18 @@
+html{
+    margin: 0 auto;
+}
+body {
+    margin: 0;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+    background-color: #EDEFF0;
+    padding: 0 !important;
+    overflow: auto !important;
+    /* background-color: hotpink; */
+}
+html, body {
+    height: 100%;
+}
+

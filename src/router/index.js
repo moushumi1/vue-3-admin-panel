@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
+import adminRoutes from "./admin.js";
 import Home from "../views/Home.vue";
 
 const mainRoutes = [
@@ -10,7 +11,7 @@ const mainRoutes = [
 ];
 
 var allRoutes = [];
-allRoutes = allRoutes.concat(mainRoutes);
+allRoutes = allRoutes.concat(mainRoutes, adminRoutes);
 //var allRoutes = [...mainRoutes, ...employeeRoutes];
 
 const routes = allRoutes;
